@@ -1,0 +1,34 @@
+.table-container {
+  display: flex;
+  width: 100%;
+}
+
+.left-table {
+  min-width: 300px;
+  flex-shrink: 0;
+}
+
+.right-table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+  border-left: 1px solid black;
+}
+
+.right-table-wrapper .p-datatable-wrapper {
+  overflow-x: hidden !important;
+}
+
+.right-table-inner {
+  min-width: fit-content;
+}
+
+.data-table__row-not-original {
+  background-color: rgb(227, 255, 227);
+  font-style: italic;
+}
+
+
+.left-table .p-datatable-tbody > tr,
+.right-table-inner .p-datatable-tbody > tr {
+  height: 55px !important;
+}
