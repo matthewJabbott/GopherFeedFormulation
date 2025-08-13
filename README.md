@@ -1,5 +1,10 @@
+
+# Feed Formulation Portal - MERN Stack Application
+
+
 # Feed Formulation Portal - MERN Stack Application
 And this line should happen if we rebased.
+
 A modern web portal for feed formulation management, built with the MERN stack (MySQL, Express.js, React.js, Node.js) and Clerk.js for authentication.
 
 
